@@ -2,7 +2,7 @@ This repo is a simplified darknet version, only cifar relevant C program documen
 
 Install Darknet:
 
-Download the files and put them in the ```darknetcifar``` directory, type
+Download the files and put them in the ```darknet``` directory, type
 ```
 make
 ```
@@ -43,7 +43,7 @@ lists two directories with our data, ```train``` and ```test```, and a file with
 cat cifar/labels.txt
 ```
 
-We also need to generate our paths files. These files will hold all the paths to the training and validation (or in this case testing) data. To do that, we'll ```cd``` into our ```cifar``` directory, find all of the images, and write them to a file, then return to our base ```darknetcifar``` directory.
+We also need to generate our paths files. These files will hold all the paths to the training and validation (or in this case testing) data. To do that, we'll ```cd``` into our ```cifar``` directory, find all of the images, and write them to a file, then return to our base ```darknet``` directory.
 ```
 cd cifar
 find `pwd`/train -name \*.png > train.list
