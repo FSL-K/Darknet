@@ -97,7 +97,7 @@ If this repo is helpful for your research, please consider citing the paper:
 ```
 
 ```BibTeX
-@@misc{bochkovskiy2020yolov4,
+@misc{bochkovskiy2020yolov4,
       title={YOLOv4: Optimal Speed and Accuracy of Object Detection}, 
       author={Alexey Bochkovskiy and Chien-Yao Wang and Hong-Yuan Mark Liao},
       year={2020},
@@ -108,7 +108,7 @@ If this repo is helpful for your research, please consider citing the paper:
 ```
 
 ```BibTeX
-@@InProceedings{Wang_2021_CVPR,
+@InProceedings{Wang_2021_CVPR,
     author    = {Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},
     title     = {{Scaled-YOLOv4}: Scaling Cross Stage Partial Network},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
