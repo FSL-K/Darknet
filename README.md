@@ -34,6 +34,23 @@ wget https://pjreddie.com/media/files/cifar.tgz
 tar xzf cifar.tgz
 ```
 
+Now let's look at what we have:
+```
+ls cifar
+```
+lists two directories with our data, ```train``` and ```test```, and a file with the labels, ```labels.txt```. You can look at ```labels.txt``` if you want and see what kinds of classes we will learn:
+```
+cat cifar/labels.txt
+```
+
+We also need to generate our paths files. These files will hold all the paths to the training and validation (or in this case testing) data. To do that, we'll ```cd``` into our ```cifar``` directory, find all of the images, and write them to a file, then return to our base ```darknetcifat``` directory.
+```
+cd cifar
+find `pwd`/train -name \*.png > train.list
+find `pwd`/test -name \*.png > test.list
+cd ../..
+```
+
 Config Files:
 
 The cifar dataset config file is kept in the ```cfg/```  directory called ```cfg/cifar.data```, and a network config file is called ```cfg/cifar_small.cfg```.
