@@ -2,7 +2,7 @@ This repo is a simplified darknet version, only cifar relevant C program documen
 
 Install Darknet:
 
-Go into the ```darknet``` directory and type
+Download the files and put them in the ```darknetcifar``` directory, type
 ```
 make
 ```
